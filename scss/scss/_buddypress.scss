@@ -1,0 +1,65 @@
+/* 登録フォームで余計な出力を消す */
+.field-visibility-settings-notoggle {
+  display: none;
+}
+.field-visibility-settings-notoggle {
+  display: none;
+}
+.field-visibility-settings {
+  display: none;
+}
+.field-visibility-settings-toggle {
+    display: none;
+}
+
+
+
+
+#signup_form {
+  div.error {
+      float: right;
+    }
+
+  .required {
+    color: red;
+  }
+}
+
+/* プロフィール編集画面 */
+#buddypress {
+
+  #item-header { // アバターなど
+    display: none;
+  }
+  #item-nav {
+    display: none;
+  }
+  #subnav {
+    display: none;
+  }
+
+  #activity-personal-li {  // アクティビティ
+    display: none;
+  }
+  #notifications-personal-li { // プロフィール閲覧
+
+  }
+  #change-avatar-personal-li { // プロフィール写真変更
+    display: none;
+  }
+
+  #settings-personal-li { // 設定
+
+  }
+  #notifications-personal-li { // メール通知
+    display: none;
+  }
+  #profile-personal-li { // プロフィールの見え方
+    display: none;
+  }
+  #delete-account-personal-li { // アカウント削除
+    display: none;
+  }
+
+}
+

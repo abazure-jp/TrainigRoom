@@ -1,0 +1,99 @@
+
+#acf_form_outer .acf-form {
+
+    .acf-label{
+	float: left;
+        width: 190px;
+    }
+    .acf-input{
+	float: left;
+        width: 540px;
+    }
+
+    .acf-field{
+	clear:both;
+	width:100%;
+    	padding: 5px 12px;
+    }
+
+    .acf-field label{
+        width: 190px;
+        display: inline-block;
+
+	font-size:15px;
+	font-weight:normal;
+    }
+
+    
+
+    p.description{
+        line-height:14px;
+	font-size:12px;
+    }
+
+
+    .acf-form-submit input[type="submit"]{
+        width: 162px;
+        border: none;
+        height: 42px;
+        background: url(images/form_sendbg.jpg) no-repeat ;
+        cursor: pointer;
+        display: inline-block;
+        color: #595A5C;
+        text-indent: -10px;
+        font-weight: bold;
+	margin-left:300px;
+	margin-top:20px;
+    }
+    .acf-form-submit input[type="submit"]:hover{
+        background: url(images/form_sendbg_lo.jpg) no-repeat ;
+    }
+ 
+	.acf-field {
+	    input[type="text"],input[type="email"],input[type="password"],input[type="number"]{
+	        width:270px;
+	        padding-left:5px;
+	        padding-right:5px;
+	        height:30px;
+	    }
+	    input[type="text"]:read-only{
+		    background-color: transparent;
+		    border: none;
+		    color: #0061A0;
+	    }
+	    select{
+	        height:30px;
+	        width:270px;
+	    }
+
+	    textarea{
+	        width:525px;
+	        height:130px;
+	        float: left;
+	    }
+	}
+    
+    .error{
+        color:red;
+        padding-left:5px;
+        display: inline-block!important;
+        width: 262px;
+        text-align: left;
+    }
+    
+    .radio label{
+        width:80px;
+    }
+}
+
+.mypage_menu{
+
+	ul li a{
+		line-height:30px;
+	        background: url(images/cm_link_bg.png) no-repeat top 5px left 0px;
+	        padding-left: 12px;
+	        border-color: #ffffff;
+	        margin-bottom: 5px;
+	        margin-right: 5px;
+	}
+}

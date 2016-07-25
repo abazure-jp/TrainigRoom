@@ -1,0 +1,1303 @@
+
+
+/*  posts */
+
+ .posts{
+
+    .posts_navi{
+        background-color: #CFC4B0;
+        font-weight: normal;
+        font-size:15px;
+        line-height: 40px;
+        padding-top: 5px;
+        margin-bottom: 40px;
+        .nav_prev{float:left;width:110px;padding-left:10px;}
+        .nav_list{float:left;width:100px;text-align:center;margin-left:320px;}
+        .nav_next{float:right;width:110px;text-align:right;padding-right:10px;}
+        a{
+            border-bottom-color: #CFC4B0;
+        }
+    }
+     
+
+     .blog_navi{
+         margin-top: 20px;
+         border-top:1px solid #CFC4B0;
+         background-color: transparent;
+         .nav_list{float:left;width:100px;text-align:center;margin-left:180px;}
+
+         a{
+             border-bottom-color: #fff;
+         }
+     }
+    h3.ul_posts{
+        border-bottom: solid 3px #d6ccb4;
+        font-size: 30px;
+        line-height: 40px;
+        text-align:left!important;
+    }
+    .post_date{
+        text-align: right;
+
+    }
+    .post_wd840{
+        margin-left:40px;
+        padding:0 0;
+    }
+    .entrytext{
+        font-size:16px;
+        margin-top: 20px;
+        img.wp-post-image{float: left;margin: 0 20px 20px 0;}
+    }
+}
+
+.wrapper .contents .photogallarey a,
+.wrapper .contents .photogallarey a:hover{
+    border:none;
+}
+
+.photolist{
+    
+    .wp-post-image{
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .photo0,.photo1,.photo2,.photo3{
+        width:230px;
+        height:300px;
+        float: left;
+    }
+    .photo1,.photo2,.photo3{
+        margin-right: 20px;
+    }
+
+    .date{
+        font-size:80%;
+        display: block;
+        float: right;
+        margin-top: 5px;
+    }
+    .name{
+        font-size:80%;
+        display: inline-block;
+    }
+}
+
+nav#photonav {
+    height: 50px;
+    min-width: 980px;
+    width: 100%;
+    clear: both;
+    background-color: #CFC4B0;
+    #nav-inner {
+        width: 980px;
+        margin: 0px auto;
+        height: 50px;
+        color: #595A5C;
+        a{
+            color: #595A5C;
+        }
+    }
+    .numnavi,.pagenavi{
+        max-width: 300px;
+        float: left;
+        padding-top: 18px;
+    }
+    .wp-pagenavi{
+        width: 300px;
+    }
+    .wp-pagenavi span.pages{
+        display:none;
+    }
+    
+    .wp-pagenavi a, .wp-pagenavi span {
+        text-decoration: none;
+        border:none;
+        border-bottom:1px solid #CFC4B0;
+        padding: 3px 5px;
+        margin: 2px;
+    }
+
+    .wp-pagenavi a:hover, .wp-pagenavi span.current{
+        color:#37A543;
+    }
+    .wp-pagenavi a:hover{
+    border-bottom:1px solid #666;
+    }
+
+    .wp-pagenavi span.current {
+        font-weight: bold;
+    }
+
+
+    a.pic_button{
+        @include button(pic_button,png, 163px, 33px);
+        display: inline-block;
+        margin: 0 auto;
+        float:right;
+        margin-top: 10px;
+    }
+}
+
+.postlist{
+    
+    ul{
+        margin-bottom: 50px;
+        li{
+            display: block;
+            padding-left:10px;
+            line-height: 40px;
+            a{
+                display: inline-block;
+                margin-left: 20px;
+                line-height: 18px;
+            }
+            .date{
+
+                display: inline-block;
+                margin-right: 20px;
+            }
+        }
+        li.news1{
+            background-color: #E6DFD5;
+        }
+        li.news1 a{
+            border-color: #E6DFD5;
+        }
+        li.news1 a:hover{
+
+            border-color: $FontGray
+        }
+    }
+
+    .posts_navi{
+        background-color: #CFC4B0;
+        font-weight: normal;
+        font-size:15px;
+        line-height: 40px;
+        padding-top: 5px;
+        margin-bottom: 40px;
+        .nav_prev{float:left;width:110px;padding-left:10px;}
+        .nav_next{float:right;width:110px;text-align:right;padding-right:10px;}
+        a{
+            border-bottom-color: #CFC4B0;
+        }
+    }
+    
+    .blog_navi{
+        margin-top: 20px;
+        border-top:1px solid #CFC4B0;
+        background-color: transparent;
+        a{
+            border-bottom-color: #fff;
+        }
+    }
+}
+
+/* blog */
+
+#page_main .pt0{
+    padding-top:0px!important;
+}
+#page_main .pb0{
+    padding-bottom:0px!important;
+}
+
+#page_main .sidebox{
+    h3.widgettitle{
+        font-size:18px;
+        text-align: left;
+    }
+}
+
+/* login */
+
+.loginpage{
+    .error{
+        text-align: center;
+    }
+    #loginbox{
+        background-color: #FEEFEE;
+        border: solid 1px $FontGray2;
+        text-align: center;
+
+        .link_more a{
+            border-bottom-color: #FEEFEE;
+        }
+        .link_more a:hover{
+            border-bottom-color: $FontGray;
+        }
+        .welcome{
+            margin-top: 20px;
+        }
+
+        p{
+            line-height: 25px;
+            margin-top: 5px;
+            margin-bottom: 7px;
+        }
+        h3{
+            text-align: center;
+            height:24px;
+            padding-top: 6px;
+            color: $FontBlack;
+            background:#F7AAB2 url(images/side01_login_title.png) no-repeat left 300px top 2px;
+            font-size: 16px;
+            margin: 10px;
+        }
+        label{
+            display: inline-block;
+            width: 35px;
+            margin-right: 10px;
+        }
+        input[type="submit"].top_loginbutton{
+            width: 241px;
+            border: none;
+            height: 41px;
+            text-indent: 10000px;
+            background: url(images/login_btn.png) no-repeat ;
+            cursor: pointer;
+            display: inline-block;
+            margin-left: 60px;
+        }
+                
+
+        input[type="submit"].top_loginbutton:hover{
+            background: url(images/login_btn_lo.png) no-repeat ;
+        }
+
+        input[type="text"],input[type="password"]{
+            padding:2px;
+            height:25px;
+            width:250px;
+            background-color:#fff!important;
+            border:1px solid #e8e8e8;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+
+        }
+        input[type="image"]:hover{
+            opacity: 0.8;
+            /* IE */
+            filter: alpha(opacity=8);
+
+        }
+
+        .link_more{
+            text-align: center;
+        }
+
+    }
+
+    #regibox{
+        background-color: #F2F2F3;
+        border: solid 1px $FontGray2;
+        text-align: center;
+        h3{
+            text-align: center;
+            height:24px;
+            padding-top: 6px;
+            color: #fff;
+            background-color:#58AA5B;
+            font-size: 16px;
+            margin: 10px;
+        }
+        a.regi_btn{
+            @include button(regi_button,png, 241px, 41px);
+            display: inline-block;
+            margin: 0 auto;
+        }
+
+    }
+
+
+    #regibox,#loginbox{
+        .link_more a{
+            border-bottom-color: #FEEFEE;
+        }
+        .link_more a:hover{
+            border-bottom-color: $FontGray;
+        }
+        a.no_ub{
+            border-bottom: none;
+        }
+
+        div.regi_sub_box{
+            width: 320px;
+            text-align: right;
+            height: 70px;
+
+            margin-left: 230px;
+        }
+
+        div.form{
+            padding-left: 10px;
+            margin-bottom: 10px;
+        }
+
+    }
+
+
+
+
+}
+
+.minilogin{
+    background-color: #fff;
+    width: 398px;
+    border: 1px solid #231916;
+    .error{
+        text-align: center;
+        width: 320px;
+        margin-left: 40px;
+        margin-bottom: 15px;
+        color: red;
+    }
+    h2.h2_minilog{
+        width: 100%;
+        background-color:#EFEFEF ;
+        line-height: 50px;
+        font-size: 23px;
+    }
+    #loginbox{
+        height:360px;
+    }
+    #regibox{
+        margin-top:30px;
+    }
+    #loginbox .link_more{
+        text-align: right;
+    }
+    
+    a.cancel{
+        color: #666;
+        text-decoration: none!important;
+    }
+
+    a.cancel:hover{
+        border-bottom:1px solid #666666;
+    }
+
+    .link_more a,#loginbox .link_more a{
+        text-decoration: none!important;
+        text-align: right;
+        margin-left: 0px;
+        margin-right: 30px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+    }
+    .link_more a{
+        border-bottom-color: #fff;
+    }
+    .link_more a:hover,#loginbox .link_more a:hover{
+        border-bottom:1px solid #666666;
+    }
+    
+    #loginbox,#regibox{width:320px;margin-left: 40px;}
+
+    #loginbox input[type="text"],#loginbox input[type="password"]{
+        padding:2px;
+        height:25px;
+        width:150px;
+        background-color:#fff!important;
+        border:1px solid #e8e8e8;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+
+    }
+    
+    #loginbox input[type="submit"].top_loginbutton{
+        margin-left: 5px;
+        
+    }
+
+    a.noregi_button{
+        @include button(noregi_button,png, 243px, 43px);
+        display: inline-block;
+        margin: 10px auto 0;
+    }
+
+
+
+    div.log_sub_box{
+        width: 380px;
+        text-align: right;
+        height:80px;
+
+        padding-left: 10px;
+    }
+    
+}
+/* styles for minilogin window */
+
+.login-miniwindow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+.login-miniwindow--bg {
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+#wp-auth-check {
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: 50px;
+}
+#wp-auth-check-frame {
+    height: 750px;
+    width: 420px;
+}
+
+
+/* taishitubetu settings */
+
+
+#page_main{
+    .pb10{
+        padding-bottom: 10px;
+    }
+    .wrap_bg_gray_tai{
+        padding-top: 70px;
+        height:150px;
+        background-color: $BgGray;
+        overflow: visible;
+    }
+    .wrap_bg_gray_tai .contents{
+        overflow: visible;
+        p{
+            line-height: 40px;
+            color:$FontBlack;
+        }
+    }
+    .tai_imgs{
+        margin-top: -110px;
+        float: right;
+        margin-left: 20px;
+        z-index:1000;
+    }
+    
+    .tai_toku1{
+        float:left;
+        width:120px;
+    }
+
+    .tai_toku2{
+        float:left;
+        width:420px;
+    }
+
+    ul.tai_navi {
+        height: 100px;
+        li{
+            display: block;
+            padding: 0 0;
+            width: 100px;
+            margin-left: 10px;
+            float: left;
+            text-align: center;
+            line-height: 15px;
+        }
+        a{
+            img{
+                margin-bottom: 6px;
+                display: block;
+                margin-left: 15px;
+            }
+        }
+
+        li:first-child{
+            margin-left: 0px;
+        }
+    }
+    .tai_bb ul.tai_navi{
+        border-bottom: solid 3px #d6ccb4;
+    }
+}
+
+
+/* tab settings */
+
+.tab{
+
+    border-bottom: 1px solid #595A5C;
+    height:59px;
+    z-index:-1000;
+}
+.tab li{
+    background-color:$BgGray;
+    padding:3px 0px 7px 5px;
+    float:left;
+    margin-left:5px;
+    margin-top:10px;
+    margin-bottom: -3px;
+    border: 1px solid #595A5C;
+    width: 185px;
+    height: 38px;
+    border-top-left-radius: 5px; 
+    border-top-right-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px; 
+}
+.tab li:first-child{
+    margin-left:0px;
+}
+
+.tab li:nth-child(5){
+    margin-left:0px;
+    float: right;
+}
+.tab li.select{
+    background:#fff;
+    margin-top:0px;
+    padding:3px 0px 17px 5px;
+    border-bottom: 1px solid #fff;
+    z-index:1000;
+    height: 38px;
+}
+.tab li:hover{
+    background:#fff;
+    margin-top:0px;
+    padding:3px 0px 17px 5px;
+    height: 38px;
+    cursor: pointer;
+    cursor: hand;
+}
+.content li{
+    line-height: 22px;
+    background:#fff; padding:20px;
+    border-left: 1px solid #595A5C;
+    border-right: 1px solid #595A5C;
+    border-bottom: 1px solid #595A5C;
+    h4{
+        color:$FontGreen;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    h4:first-child{
+        margin-top:0px;
+    }
+}
+.hide {display:none;}
+
+
+a.tai_more_button{
+    @include button(tai_more_button,png, 283px, 43px);
+    display: inline-block;
+    margin: 10px auto 0;
+}
+
+
+
+.wrapper .contents a.tai_more_button:hover{
+    border-bottom-color: #fff;
+}
+
+/* form */
+
+.mw_wp_form,
+.shootphoto_form{
+    p{
+        margin-bottom: 10px;
+
+        vertical-align:top;
+    }
+    
+    input[type="submit"]{
+        width: 162px;
+        border: none;
+        height: 42px;
+        background: url(images/form_sendbg.jpg) no-repeat ;
+        cursor: pointer;
+        display: inline-block;
+        color: #595A5C;
+        text-indent: -10px;
+        font-weight: bold;
+        font-size:16px;
+    }
+    input[type="submit"]:hover{
+        background: url(images/form_sendbg_lo.jpg) no-repeat ;
+    }
+    input[type="submit"]:nth-child(2){
+        width: 162px;
+        background: url(images/form_backbg.jpg) no-repeat ;
+        display: inline-block;
+        margin-left: 10px;
+        text-indent: 10px;
+    }
+
+    input[type="submit"]:nth-child(2):hover{
+        background: url(images/form_backbg_lo.jpg) no-repeat ;
+    }
+
+    input[type="text"],input[type="email"]{
+        width:270px;
+        padding-left:5px;
+        padding-right:5px;
+        height:30px;
+        font-size:16px;
+    }
+    input[type="text"]#add{
+        width:440px;
+    }
+    input[type="file"]{
+        width:270px;
+        padding-left:5px;
+        padding-right:5px;
+        height:30px;
+        font-size:16px;
+    }
+    select{
+        font-size:16px;
+        height:30px;
+    }
+
+    textarea{
+        font-size:16px;
+        width:515px;
+        height:130px;
+        float: left;
+        padding:5px;
+        margin-left: 5px;
+    }
+    label{
+        width: 190px;
+        display: inline-block;
+
+    }
+    label.naiyo{
+        float: left;
+    }
+    .mail_messe{
+        margin-left:192px;
+        margin-bottom: 5px;
+        line-height:18px;
+    }
+    .error{
+        color:red;
+        padding-left:5px;
+        display: inline-block!important;
+    }
+    .button_area{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .conc_form label{
+        text-align: right;
+    }
+    .radio label{
+        width:80px;
+    }
+    
+    /* for shootphoto */
+    input[type="text"].readonly{
+        background-color: transparent;
+        border: none;
+        color:#0061A0;
+        width: auto;
+        min-width: 80px;
+    }
+    .fileup_text{
+        margin-left: 200px;
+        display: inline-block;
+    }
+}
+
+
+
+.standard-form{
+
+    label{
+        width: 190px;
+        display: inline-block;
+    }
+    
+    h4{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    p{
+        margin-bottom: 10px;
+        vertical-align:top;
+    }
+    input[type="submit"]{
+        width: 162px;
+        border: none;
+        height: 42px;
+        background: url(images/form_sendbg.jpg) no-repeat ;
+        cursor: pointer;
+        display: inline-block;
+        color: #595A5C;
+        text-indent: -10px;
+        font-weight: bold;
+    }
+    input[type="submit"]:hover{
+        background: url(images/form_sendbg_lo.jpg) no-repeat ;
+    }
+    input[type="submit"]:nth-child(2){
+        width: 162px;
+        background: url(images/form_backbg.jpg) no-repeat ;
+        display: inline-block;
+        margin-left: 10px;
+        text-indent: 10px;
+    }
+
+    input[type="submit"]:nth-child(2):hover{
+        background: url(images/form_backbg_lo.jpg) no-repeat ;
+    }
+
+    input[type="text"],input[type="email"],input[type="password"],input[type="number"]{
+        width:270px;
+        padding-left:5px;
+        padding-right:5px;
+        height:30px;
+    }
+
+    select{
+        height:30px;
+    }
+
+    textarea{
+        width:525px;
+        height:130px;
+        float: left;
+    }
+    label.naiyo{
+        float: left;
+    }
+    .mail_messe{
+        margin-left:192px;
+        margin-bottom: 5px;
+        line-height:18px;
+    }
+    
+    .error{
+        color:red;
+        padding-left:5px;
+        display: inline-block!important;
+        width: 262px;
+        text-align: left;
+    }
+    
+    .button_area{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .conc_form label{
+        text-align: right;
+    }
+    .radio label{
+        width:80px;
+    }
+}
+
+.taihan_content{
+    form.standard-form{
+        line-height:40px;
+        label{
+            width: 70px;
+            padding-left: 10px;
+        }
+        input[type="submit"]{
+            margin-left: 10px;
+            margin-top: 30px;
+        }
+        #rememberme{
+            margin-left: 10px;
+        }
+    }
+    .taihan_p{
+        font-size:16px;
+        margin-top:20px;
+    }
+}
+
+#page_main #wrap_conc_sample{
+    padding-top:0px;
+    padding-bottom:0px;
+}
+#conc_sample{
+    width:980px;
+    padding-left:40px;
+    padding-right:40px;
+    color: #000;
+
+    .header{
+        width:900px;
+        height:100px;
+        background-color:#F2F2F2;
+        margin-bottom: 30px;
+    }
+    .head-logo{
+        margin-left:100px;
+        float:left;
+    }
+    .buttons{
+        float:right;
+        width:100px;
+        margin-top:10px;
+        margin-right:100px;
+        a,a img{
+            border:none;
+            cursor: pointer;
+
+        }
+        a:hover{
+            opacity: 0.5 ;
+            filter: alpha(opacity=50) ;
+        }
+    }
+    .main{
+        width:800px;
+        margin-left:50px;
+        font-size:16px;
+        line-height:28px;
+    }
+    dl{
+        margin-left: 60px;
+        clear: both;
+    }
+
+    dd{
+        margin-left: 60px;
+        margin-bottom: 30px;
+        clear: both;
+    }
+    div.calc{
+        width: 380px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+        h3{
+            font-size:16px;
+            color:#005AA1;
+            font-weight: normal;
+            text-align: left;
+            margin-bottom: 5px;
+            margin-top: 30px;
+        }
+        div.calc_inner{
+            margin-left: 30px;
+            line-height: 30px;
+        }
+    }
+
+    .q1 {
+        float: left;
+        width:36px;
+    }
+    .q2 {
+        margin-left: 20px;
+        width: 640px;
+        float: left;
+    }
+    .exam_img{
+        float:left;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    table.exam_table {
+        border-collapse: collapse;
+        border: 1px $FontGray solid;
+        width: 600px;
+        margin-left: 100px;
+        margin-bottom: 100px;
+        td,th {
+            border: 1px $FontGray solid;
+            padding: 10px;
+            text-align: center;
+        }
+        th{
+            background-color: #E7E8E9;
+            height: 10px;
+            font-size: 16px;
+            color:$FontBlack;
+            font-size: 15px;
+        }
+        td{
+            height: 40px;
+            font-size: 20px;
+        }
+    }
+    
+    .footer{
+        width:900px;
+        height:60px;
+
+        background-color:#F2F2F2;
+        .copy{
+            float:left;
+            margin-left: 80px;
+            margin-top: 25px;
+            font-size:14px;
+        }
+    }
+    a.exam_button{
+        @include button(exam_button,png, 203px, 53px);
+        display: inline-block;
+        margin: 20px auto;
+        border-bottom: none!important;
+        &:hover{
+            border-bottom: none;
+        }
+    }
+}
+
+
+/* img fill screen preview setting */
+
+.fullscr:-webkit-full-screen {
+    width: 80%;
+    background-color: rgba(255,0,0,0.6);
+
+}
+.fullscr:-webkit-full-screen img {
+    display: block;
+    margin: 10% auto;
+    cursor: pointer;
+}
+.fullscr img {
+    max-width: 70%;
+    cursor: pointer;
+
+}
+
+/* colorbox youtube */
+
+
+.wrapper .contents a.douga1{
+    border-bottom: none;
+}
+
+/** adding childmember */
+.hidden_nonadmin {
+    display: none;
+}
+
+.childmember-archive {
+    width:900px;
+    margin: 20px auto;
+
+    table {
+        border: 1px solid;
+        width: 900px;
+        margin: 20px auto;
+    }
+
+    /* masuko added 20160524 */
+    table th {
+        background-color: #E7E8E9;
+    }
+    table.com_table td{
+	padding: 5px;
+    }
+
+    table td a {
+        background: url(images/cm_link_bg.png) no-repeat top 5px left 0px;
+        padding-left: 12px;
+        border-color: #ffffff;
+        line-height: 25px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+    }
+
+
+    div.wordbreak {
+        max-width: 100px;
+        word-wrap: break-word;
+    }
+    /* end of masuko added 20160524 */
+
+	
+}
+
+/* 新規追加 ボタン用CSS */
+
+.wrapper .contents{
+    a.button_han{
+        width: 162px;
+        border: none;
+        height: 42px;
+        background: url(images/form_sendbg.jpg) no-repeat ;
+        cursor: pointer;
+        display: inline-block;
+        color: #595A5C!important;
+	padding-top:10px;
+        font-weight: bold;
+	text-align:center;
+	text-indent:-10px;
+	font-size:15px;
+    }
+
+    a.button_han:hover{
+        background: url(images/form_sendbg_lo.jpg) no-repeat ;
+	border-bottom:none;
+    }
+    a.button_han_bk{
+        width: 162px;
+        border: none;
+        height: 42px;
+        background: url(images/form_backbg.jpg) no-repeat ;
+        cursor: pointer;
+        display: inline-block;
+        color: #595A5C!important;
+	padding-top:10px;
+        font-weight: bold;
+	text-align:center;
+	text-indent:12px;
+	font-size:15px;
+    }
+
+    a.button_han_bk:hover{
+        background: url(images/form_backbg_lo.jpg) no-repeat ;
+	border-bottom:none;
+    }
+
+
+}
+
+
+/* single-childmember */
+.radarchart{
+	float:left;
+	width:315px;
+	margin-left:10px;
+	text-align:center;
+
+	img{
+		width:100%;
+	}
+
+	h3{
+		font-size:20px!important;
+		font-weight:bold;
+		line-height:25px;
+		margin-bottom:20px;
+	}
+}
+.radarchar:first-childt{
+	margin-left:0px;
+}
+
+.child_table{
+    width:100%;
+    td a {
+        background: url(images/cm_link_bg.png) no-repeat top 7px left 0px;
+        padding-left: 12px;
+        border-color: #ffffff;
+        line-height: 25px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+    }
+    th {
+        background-color: #E7E8E9;
+    }
+}
+
+.taihan_content {
+    section {
+        width: 400px;
+    }
+
+    form.question {
+        display: none;
+        margin: 8px 0 0 8px;
+    }
+
+    form.selected {
+        display: block;
+    }
+
+    p {
+        margin: 0 0 16px 8px;
+        font-size: 160%
+    }
+
+    input[type=button] {
+        width: 150px;
+        margin: 0 16px 16px 0;
+        padding: 8px 20px;
+        border: 1px solid #ddd;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        background: #eee;
+        color: #666;
+        font-size: 116%;
+        font-weight: bold;
+    }
+
+    input.rebutton {
+        width: 150px;
+        margin: 0 16px 16px 0;
+        padding: 8px 20px;
+        border: 1px solid #ddd;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        background: #eee;
+        color: #666;
+        font-size: 116%;
+        font-weight: bold;
+    }
+
+    input.back {
+        font-size: 100%;
+    }
+    #complete {
+        display: none;
+    }
+
+    #complete.selected {
+        display: block;
+    }
+
+    #comment {
+        font-size: 108%;
+    }
+}
+
+
+
+/* 古川追加 */
+#page_main .box3_white200_mem {
+    width: 280px;
+    padding: 10px;
+    height: 200px;
+    margin-top: 30px;
+    background-color: white;
+}
+#page_main .box3_white640 {
+    float: right;
+    width: 640px;
+    padding: 10px;
+    height: 430px;
+    background-color: white;
+}
+#page_main .link_more3 {
+    text-align: right;
+    height: 30px;
+    margin-right: 5px;
+}
+#page_main .link_more3 a {
+    background: url(images/top_li_bg1.png) no-repeat right 5px top 3px;
+    display: inline-block;
+    padding-right: 17px;
+    margin-left: 40px;
+    line-height: 18px;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #666666 !important;
+}
+.webitem_ul_disc {
+    list-style: disc;
+    margin-left:30px;
+}
+.mibyouken_ul_number {
+    list-style: decimal;
+    margin-left:30px;
+}
+.sidebox .side_more_button2 {
+    display: block;
+    text-indent: -9999px;
+    border-bottom: none;
+    background: url("images/side_more_button2.png") left no-repeat;
+    width: 140px;
+    height: 26px;
+    display: inline-block;
+    border-bottom: none !important;
+}
+.sidebox .side_more_button2:hover {
+    background: url("images/side_more_button2_lo.png") left no-repeat;
+    cursor: pointer;
+}
+.main .books_info {
+    font-size:18px;
+    margin-bottom:50px;
+}
+.main .books_info a:link{
+    color:#a00000;
+}
+.books_img {
+    margin:10px;
+    text-align:center;
+}
+.plivacy_list {
+    list-style: decimal;
+    margin:20px 0 20px 30px;
+}
+.jukou_voice h4 {
+    color: #005aa1;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin:5px 0;
+}
+.jukou_voice{
+    margin-bottom:20px;
+}
+.fontcolor_blue {
+    color: #1D75BC;
+}
+.legal_list {
+    list-style: decimal;
+    margin:20px 0 20px 30px;   
+}
+.legal_list li{
+    margin-bottom:10px;   
+}
+#page_main .box3_white_concier {
+    width: 280px;
+    float: left;
+    padding: 10px;
+    height: 440px;
+    background-color: #fff;
+}
+.dvd_learning {
+    font-weight:bold;
+    margin:0 0 5px 0;   
+}
+
+#conc_sample .q1 {
+    float: left;
+    width: 45px;
+}
+#conc_sample .q2 {
+    margin-left: 20px;
+    width: 639px;
+    float: left;
+}
+.taihan_content {
+    margin-top:50px;
+    text-align:center;   
+}
+.taihan_form {
+    width:450px;
+    margin:0 auto;
+    text-align:left;
+}
+.formbt_center {
+    margin-left:120px;
+}
+.margin_b_lostpass {
+    margin-top:50px;
+    margin-bottom:100px;
+}
+.test {
+       
+}
+
+
+/* 古川さん追加ここまで */
