@@ -1,3 +1,3 @@
 # Here is Training Room
 
-
+Undertaleすごくおもしろかった…
