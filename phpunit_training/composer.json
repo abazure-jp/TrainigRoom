@@ -1,0 +1,6 @@
+{
+    "name": "say0213/phpunit_training",
+    "require": {
+        "phpunit/phpunit": "^6.0"
+    }
+}
