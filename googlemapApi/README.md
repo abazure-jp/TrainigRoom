@@ -1,22 +1,49 @@
 # mapにgpxをプロットしたい
  - グーグルマップ上にgpxのデータをプロットする
- - グーグル・マップのcssを変える
- - グーグルマップのピクセル座標のウンタラカンタラで何処まで表現できるのかを調査する
-
-## 環境 
-  - google maps api
-    - Maps JavaScript API
-  - Node.js
-    
 
 ## ヒートマップレイヤ
     https://developers.google.com/maps/documentation/javascript/heatmaplayer?hl=ja
-## カスタマイズをブラウザから
-    https://webkikaku.co.jp/blog/webdesign/googlemap-customize/
+
 ## 例
     https://liginc.co.jp/web/service/google/98165
     https://zxcvbnmnbvcxz.com/11-googlemap-designs/
 
-
   これなら血脈が目立つだろうか？
     http://www.diehlgroup.com/
+
+## ひとまずのゴール
+としてドット表示。
+まずは完全に平面的な情報をリマップする感じに。
+
+実際には単にドット表示するというアプローチでは、うまく表示できないんじゃないかと思っている。
+そうするとデザインが必要で、まあ例えばヒートマップみたいな手法になるのか、別のやりかたなのかは分からないけれど、ドット表示がいいなあというのは変わらない。のでまずはその辺っすね。
+
+べつにドットデザインに拘らなくても良いのでは…?
+
+## おぼえがき
+べつにjsで完結させる必要は無いわけで。最終的なフロントは当然jsだろうけどassetsは何で用意してもええねん。
+重要なのは自動車道路網なので他の情報は基本的に要らないはず。
+まず、自動車道路網だけのものを作れないか確認すべき。-> PokemonGOがまさに。道路部とそれ以外という情報を公開しているはず。それをもとに作れるはず。
+->できた
+
+https://liginc.co.jp/web/programming/server/132459
+
+googlemapでは、歩行可能な部分は白くなっている？
+であれば座標の色をとって白ならそのまま、それ以外なら黒にするような処理をして…とか。
+
+とりあえず公式リファレンスとにらめっこ
+
+CSSいじれるらしいから厳密な車道も取りやすい？
+
+rubyかpythonか…。
+
+## ながれ
+
+1. CSSをまず弄る
+2. webshotとる
+
+
+
+
+
+
