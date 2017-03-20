@@ -1,6 +1,5 @@
 # phantomjs
 
-
 とりあえずOSXにいれてチュートリアルやる->やった
 phantomjsってnpmであつかえるのん？チェックする
 
@@ -9,3 +8,6 @@ phantomjsってnpmであつかえるのん？チェックする
 https://github.com/ncopa/docker-phantomjs-alpine/blob/master/Dockerfile
 しようとおもったけどこのDockerfileを参考にしたほうが早い
 
+-> Dockerじゃなくてもいいや
+
+webshotでよかった
