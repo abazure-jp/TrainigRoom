@@ -2,5 +2,4 @@
 
 Undertaleすごくおもしろかった…
 
-
-anime is real
+すごーい！たーのしー！
